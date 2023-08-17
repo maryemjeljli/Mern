@@ -3,20 +3,72 @@ import './App.css';
 import PersonCard from './component/PersonCard';
 
 function App() {
-  let User=[{"lastname":"john","firstname":"john","age":45,"haircolor":"brown"},
-  {"lastname":"john","firstname":"john","age":45,"haircolor":"brown"},
-  {"lastname":"john","firstname":"john","age":45,"haircolor":"brown"},
-  {"lastname":"john","firstname":"john","age":45,"haircolor":"brown"}]
-   
- 
+  
   return (
-    
-    
-        <div className="App">
-            <PersonCard/>        
-</div>
-  
-  );
-}
+ <div className="App">
 
-export default App;
+            <PersonCard lastname={doe} name={jane}
+                        age={45}
+                        hair colo={black}/> 
+            <PersonCard lastname={smith} name={jhon}
+                        age={88}
+                        hair color= {brown}/> 
+            <PersonCard lastname={fillmore} name={millard}
+                                    age={50}
+                                    hair color={black}/> 
+            <PersonCard lastname={smith} name={maria}
+                                    age={62}
+                                    hair color={brown}/>        
+            </div>
+              
+              );
+            }
+            
+            export default App;
+            
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                       
