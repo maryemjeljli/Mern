@@ -17,37 +17,22 @@ const Form = (props) =>{
         <label>firstname:</label>
         <input type="text" onChange={(e)=>setfirstname(e.target.value)}/> 
         </div>
-        {firstName.length < 2 && firstName.length > 0 ? (
-            <p>First Name must be at least 2 characters</p>
-          ) : null}
         <div>
         <label>lastname:</label>
         <input type="text" onChange={(e)=>setlastname(e.target.value)} /> 
         </div>
-        {lastName.length < 2 && lastName.length > 0 ? (
-            <p>Last Name must be at least 2 characters</p>
-          ) : null}
         <div>
         <label>password :</label>
         <input type="password" onChange={(e)=>setpassword(e.target.value)}/> 
         </div>
-        {password.length < 8 ? (
-            <p>Password must be at least 8 characters</p>
-          ) : null}
-        
         <div>
         <label>confirm password :</label>
         <input type="password" onChange={(e)=>setconfirmpassword(e.target.value)}/> 
         </div>
-        {password.length < 8 ? (
-            <p>Password must be at least 8 characters</p>
-          ) : null}
         <div>
         <label>email:</label>
         <input type="email" onChange={(e)=>setemail(e.target.value)}/> 
         </div>
-        
-        {email.length < 5 ? <p>Email must be at least 5 characters</p> : null}
         
         </form>
         <div>
