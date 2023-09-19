@@ -7,12 +7,12 @@ const Form = (props) =>{
     const[password,setpassword]=useState("");
     const[email,setemail]=useState("");
     const[confirmpassword,setconfirmpassword]=useState("");
-
+  const onSubmithandler=(e)=>console.log("success");
 
 
     return (
       <div className="App">
-       <form>
+       <form onSubmit={onSubmithandler}>
        <div>
         <label>firstname:</label>
         <input type="text" onChange={(e)=>setfirstname(e.target.value)}/> 
